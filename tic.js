@@ -18,7 +18,7 @@ const test =(e)=>{
            (one3.innerText === "X" && two3.innerText === "X" && three3.innerText==="X")||
            (one1.innerText === "X" && two2.innerText === "X" && three3.innerText==="X")||
            (one3.innerText === "X" && two2.innerText === "X" && three1.innerText==="X")){
-               disp.innerText=(player1.value + " won !") 
+               disp.innerText=(player1.value + " Won !") 
                bb=parseInt(firstcount.value)
                bb++;
                firstcount.value=bb;
@@ -42,7 +42,7 @@ const test =(e)=>{
            (one3.innerText === "O" && two3.innerText === "O" && three3.innerText==="O")||
            (one1.innerText === "O" && two2.innerText === "O" && three3.innerText==="O")||
            (one3.innerText === "O" && two2.innerText === "O" && three1.innerText==="O")){
-               disp.innerText= (player2.value + " won")
+               disp.innerText= (player2.value + " Won !")
                bb=parseInt(secondcount.value)
                bb++;
                secondcount.value=bb;
