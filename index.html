@@ -1,0 +1,49 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TIC-TAC-TOE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center">TIC TAC TOE</h1>
+    <!-- <div style="display: flex; flex-direction: block; justify-content: center;"> -->
+
+
+        <div align="center" >
+            <input id="firstuser" type="text" disabled> 
+            <input id="firstcount" type="text" disabled> 
+        </div>
+        <div align="center">
+            <input id="seconduser" type="text" disabled>
+            <input id="secondcount" type="text" disabled>
+        <!-- </div> -->
+    </div>
+    <div align="center" id="disp" ></div>
+    <div align="center">
+        <input id="player1" placeholder="Player X" type="text">
+        <input id="player2" placeholder="Player O" type="text">  
+        <button id="enter" onclick="Enter()" >Enter</button>
+        <button id="restart" onclick="Restart()">Restart</button>
+    </div>
+    <table align="center" border="1" height="300px" width="300px">
+        <tr>
+            <td onclick="test(event)" id="one1"></td>
+            <td onclick="test(event)" id="one2"></td>
+            <td onclick="test(event)" id="one3"></td>
+        </tr>
+        <tr>
+            <td onclick="test(event)" id="two1"></td>
+            <td onclick="test(event)" id="two2"></td>
+            <td onclick="test(event)" id="two3"></td>
+        </tr>
+        <tr>
+            <td onclick="test(event)" id="three1"></td>
+            <td onclick="test(event)" id="three2"></td>
+            <td onclick="test(event)" id="three3"></td>
+        </tr>
+    </table>
+    <script src="tic.js"></script>
+</body>
+</html>

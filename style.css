@@ -1,0 +1,81 @@
+body{
+    background-color: purple;
+}
+table{
+    text-align: center;
+    font-size: 20px;
+}
+td{
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+}
+#firstcount{
+    font-size: medium;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: fit-content;
+}
+#secondcount{
+    font-size: medium;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width:fit-content ;
+}
+#firstuser{
+    font-size:large;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width: fit-content;
+}
+#seconduser{
+    font-size:large;
+    color: white;
+    border: none;
+    margin: 0;
+    padding: 0;
+    background: none;
+    width:fit-content ;
+}
+#disp{
+    color: green;
+}
+input{
+    display: flex;
+    flex-direction: block;
+    outline: none;
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+button{
+    border: solid 1px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 70px;
+
+}
+#enter{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color:darkblue;
+}
+#restart{
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color:darkred;
+}
