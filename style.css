@@ -1,5 +1,5 @@
 body{
-    background-color: purple;
+    background-color: black
 }
 table{
     text-align: center;
@@ -48,6 +48,7 @@ td{
     width:fit-content ;
 }
 #disp{
+    font-size:xx-large;
     color: green;
 }
 input{

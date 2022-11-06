@@ -28,7 +28,7 @@ const test =(e)=>{
                initialValue=""
            }
            else if(one1.innerText!==""&&one2.innerText!==""&&one3.innerText!==""&&three1.innerText !== "" && three2.innerText !== "" && three3.innerText!==""&&two1.innerText !== "" && two2.innerText !== "" && two3.innerText!=="" ) {
-               disp.innerText="Draw"
+               disp.innerText="Draw!"
            }
            
        } else if(initialValue=="O"&& e.target.innerText ==""){
